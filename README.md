@@ -19,8 +19,6 @@ This repository implements a repair layer that:
 
 It runs **on top of** existing fuzzers; it does not modify them. The fuzzer's queue is read, repaired sequences are written back as seeds.
 
-> 中文摘要：针对有状态协议模糊测试的覆盖停滞，在服务器做状态检查的位置采集两样运行时信息——比较的两个值、以及这个状态最后由哪条消息写入——据此判断缺的是一条前置消息还是一个需要绑定的值，只修补定位到的那条消息，把修好的序列放回 fuzzer 的种子集合。本仓库只包含修复层本身，不含汇报材料与参考文献。
-
 ---
 
 ## Repository layout
