@@ -1,0 +1,92 @@
+{
+ "runs": [
+  {
+   "arm": "base",
+   "rep": 1,
+   "final_b": 336.0,
+   "final_l": 699.0
+  },
+  {
+   "arm": "base",
+   "rep": 2,
+   "final_b": 335.0,
+   "final_l": 699.0
+  },
+  {
+   "arm": "base",
+   "rep": 3,
+   "final_b": 335.0,
+   "final_l": 697.0
+  },
+  {
+   "arm": "base",
+   "rep": 4,
+   "final_b": 334.0,
+   "final_l": 696.0
+  },
+  {
+   "arm": "base",
+   "rep": 5,
+   "final_b": 334.0,
+   "final_l": 695.0
+  },
+  {
+   "arm": "ours",
+   "rep": 1,
+   "final_b": 363.0,
+   "final_l": 734.0
+  },
+  {
+   "arm": "ours",
+   "rep": 2,
+   "final_b": 362.0,
+   "final_l": 732.0
+  },
+  {
+   "arm": "ours",
+   "rep": 3,
+   "final_b": 363.0,
+   "final_l": 732.0
+  },
+  {
+   "arm": "ours",
+   "rep": 4,
+   "final_b": 358.0,
+   "final_l": 727.0
+  },
+  {
+   "arm": "ours",
+   "rep": 5,
+   "final_b": 364.0,
+   "final_l": 737.0
+  }
+ ],
+ "A12": 1.0,
+ "pairs": 25,
+ "mean": {
+  "base": 334.8,
+  "ours": 362.0
+ },
+ "sd": {
+  "base": 0.8,
+  "ours": 2.3
+ },
+ "at_time": {
+  "base": [
+   320.4,
+   328.8,
+   331.0,
+   333.0,
+   334.6,
+   334.8
+  ],
+  "ours": [
+   338.6,
+   354.0,
+   358.8,
+   360.0,
+   361.6,
+   362.0
+  ]
+ }
+}
